@@ -1,0 +1,19 @@
+{
+  "name": "dsa_jhagan",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhaganb/dsa_js.git"
+  },
+  "author": "Jhagan B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhaganb/dsa_js/issues"
+  },
+  "homepage": "https://github.com/jhaganb/dsa_js#readme"
+}
