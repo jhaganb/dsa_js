@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jhaganb/dsa_js/issues"
   },
-  "homepage": "https://github.com/jhaganb/dsa_js#readme"
+  "homepage": "https://github.com/jhaganb/dsa_js#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
 }
