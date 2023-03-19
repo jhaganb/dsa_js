@@ -1,10 +1,11 @@
 {
   "name": "dsa_jhagan",
   "version": "1.0.0",
+  "type": "module",
   "description": "Data Structures and Algorithms",
-  "main": "test.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/jhaganb/dsa_js#readme",
   "dependencies": {
+    "@babel/core": "^7.21.3",
+    "babel-jest": "^29.5.0",
     "jest": "^29.5.0"
   }
 }
