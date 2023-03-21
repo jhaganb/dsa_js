@@ -16,5 +16,5 @@ class OneDimenionalArray {
 }
 OneDimenionalArray.prototype.insert = OneDimenionalArray.prototype.myinsert;
 
- export default OneDimenionalArray;
+export default OneDimenionalArray;
 // module.exports = OneDimenionalArray;

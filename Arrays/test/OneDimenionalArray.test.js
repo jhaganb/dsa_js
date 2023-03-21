@@ -1,4 +1,3 @@
-// import  OneDimenionalArray from "./OneDimenionalArray.js";
 const OneDimenionalArray = require("../OneDimenionalArray");
 
 describe("OneDimenionalArray", () => {
@@ -13,9 +12,3 @@ describe("OneDimenionalArray", () => {
     expect(arr.myArray[1]).toEqual(3);
   });
 });
-// const OneDimenionalArray = require("../OneDimenionalArray");
-
-// test("adds two number", () => {
-//   const arr = new OneDimenionalArray();
-//   expect(arr[0]).toEqual(0);
-// });
