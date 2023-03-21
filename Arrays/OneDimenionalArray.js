@@ -2,10 +2,10 @@ class OneDimenionalArray {
   constructor(sizeOfArray) {
     this.myArray = new Array(sizeOfArray);
     this.myArray.fill(0);
-    return this.myArray;
+    this.size = sizeOfArray;
   }
 
-  insert(location, valueToBeInserted) {
+  myinsert(location, valueToBeInserted) {
     if (this.myArray[location] == 0) {
       this.myArray[location] = valueToBeInserted;
       console.log("Successfully Inserted");
@@ -14,6 +14,7 @@ class OneDimenionalArray {
     }
   }
 }
+OneDimenionalArray.prototype.insert = OneDimenionalArray.prototype.myinsert;
 
-//export { OneDimenionalArray };
- module.exports = OneDimenionalArray;
+ export default OneDimenionalArray;
+// module.exports = OneDimenionalArray;
