@@ -13,3 +13,4 @@ arr.deleteValue(2);
 arr.traverseArray();
 arr.deleteValue(4);
 arr.traverseArray();
+arr.traverseArray();
