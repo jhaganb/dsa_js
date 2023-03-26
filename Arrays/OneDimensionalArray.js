@@ -1,16 +1,16 @@
 class OneDimensionalArray {
   constructor(sizeOfArray) {
-    this.myArray = new Array(sizeOfArray);
-    this.myArray.fill(0);
+    this._myArray = new Array(sizeOfArray);
+    this._myArray.fill(0);
   }
 
   insert(location, valueToBeInserted) {
-    if (location > this.myArray.length) {
+    if (location > this._myArray.length) {
       console.error(`Array Index Out Of Bounds Exception`);
       return;
     }
-    if (this.myArray[location] == 0) {
-      this.myArray[location] = valueToBeInserted;
+    if (this._myArray[location] == 0) {
+      this._myArray[location] = valueToBeInserted;
       console.log("Successfully Inserted");
     } else {
       console.log("This cell is already occupied");
@@ -19,16 +19,16 @@ class OneDimensionalArray {
 
   traverseArray() {
     let arrayString = "";
-    for (let i = 0; i < this.myArray.length; i++) {
-      arrayString += `${this.myArray[i]}`;
+    for (let i = 0; i < this._myArray.length; i++) {
+      arrayString += `${this._myArray[i]}`;
     }
     console.log(arrayString.split(""));
   }
 
   //Linear Search - separate section is written for it
   searchInArray(valueToSearch) {
-    for (let i = 0; i < this.myArray.length; i++) {
-      if (this.myArray[i] === valueToSearch) {
+    for (let i = 0; i < this._myArray.length; i++) {
+      if (this._myArray[i] === valueToSearch) {
         console.log(`Value is found at the index of ${i}`);
         return;
       }
@@ -37,17 +37,17 @@ class OneDimensionalArray {
   }
 
   deleteValue(valueToDeleteIndex) {
-    if (valueToDeleteIndex >= this.myArray.length) {
+    if (valueToDeleteIndex >= this._myArray.length) {
       console.log(`The value that is provided is not in the range of array`);
       return;
     }
-    this.myArray[valueToDeleteIndex] = 0;
-    console.log(`The value has been deleted successfully`);
+    console.log(`Successfully deleted  : ${this._myArray[valueToDeleteIndex]}`);
+    this._myArray[valueToDeleteIndex] = 0;
   }
 }
 
-// export default OneDimensionalArray;
-module.exports = OneDimensionalArray;
+export default OneDimensionalArray;
+// module.exports = OneDimensionalArray;
 
 /** 
  * Code for ArrayMain.js to execute the One Dimensional Array
