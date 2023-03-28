@@ -16,6 +16,8 @@ class SinglyLinkedList {
     this.size = 1;
     return this.head;
   }
+
+  //work here today
 }
 
 export default SinglyLinkedList;
