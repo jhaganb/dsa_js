@@ -16,7 +16,7 @@ class SinglyLinkedList {
     this.size = 1;
     return this.head;
   }
-  //check2
+
   insertInlinkedList(nodeValue, location) {
     const node = new NodeS();
     node.value = nodeValue;
