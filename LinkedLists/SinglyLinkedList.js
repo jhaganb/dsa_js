@@ -16,7 +16,7 @@ class SinglyLinkedList {
     this.size = 1;
     return this.head;
   }
-  //check
+  //check2
 }
 
 export default SinglyLinkedList;
